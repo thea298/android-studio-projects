@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="weight">Weight:</string>
+    <string name="weightInput">Weight</string>
+    <string name="height">Height:</string>
+    <string name="heightInput">Height</string>
+    <string name="poundInch">Pound/inch</string>
+    <string name="meter">Meter</string>
+    <string name="centimeter">Centimeter</string>
+    <string name="calculate">Calculate BMI</string>
+    <string name="reset">Reset</string>
+    <string name="resultDisplay">You must click on the \"Calculate BMI\" button to get a result</string>
+    <string name="result">Result:</string>
+</resources>

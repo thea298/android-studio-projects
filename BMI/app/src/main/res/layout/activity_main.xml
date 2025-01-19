@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/weightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:textColor="#FF0000"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/weightInput"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <CheckBox
+        android:id="@+id/poundInch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poundInch"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/heightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:textColor="#FF0000"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/heightInput"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <RadioGroup
+        android:id="@+id/meterCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@id/meterBtn">
+        <RadioButton
+            android:id="@+id/meterBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="VisualLintButtonSize"
+            android:text="@string/meter"/>
+        <RadioButton
+            android:id="@+id/cmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="VisualLintButtonSize"
+            android:text="@string/centimeter"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#546E7A"
+        android:text="@string/result"/>
+
+    <TextView
+        android:id="@+id/resultDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#546E7A"
+        android:text="@string/resultDisplay"/>
+
+</LinearLayout>

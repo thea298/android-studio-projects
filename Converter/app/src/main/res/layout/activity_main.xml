@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/temp_curr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperature"/>
+        <RadioButton
+            android:id="@+id/currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currency"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio1"/>
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio2"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value"/>
+
+    <EditText
+        android:id="@+id/valueInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/valueInput"
+        android:textColorHint="#546E7A"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"/>
+
+</LinearLayout>

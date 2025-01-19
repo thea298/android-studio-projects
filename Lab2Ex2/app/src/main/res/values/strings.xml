@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab2-Ex2</string>
+    <string name="hideMe">Hide Me</string>
+    <string name="hideBtn">Hide</string>
+    <string name="showBtn">Show</string>
+    <string name="disableMe">Disable Me</string>
+    <string name="disableBtn">Disable</string>
+    <string name="colorMe">Color me</string>
+    <string name="greenBtn">Green</string>
+    <string name="resetBtn">Reset</string>
+    <string name="closeBtn">Close</string>
+</resources>

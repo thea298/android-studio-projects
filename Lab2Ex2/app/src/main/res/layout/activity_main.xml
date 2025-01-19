@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/hideMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hideMe" />
+        <Button
+            android:id="@+id/hideBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hideBtn" />
+        <Button
+            android:id="@+id/showBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showBtn" />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/disableMe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text="@string/disableMe"
+            tools:ignore="Autofill,LabelFor,VisualLintTextFieldSize" />
+        <Button
+            android:id="@+id/disableBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disableBtn"
+            tools:ignore="TouchTargetSizeCheck,VisualLintBounds" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/colorMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colorMe" />
+        <Button
+            android:id="@+id/greenBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/greenBtn" />
+    </TableRow>
+
+    <TableRow>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/resetBtn"
+            tools:ignore="VisualLintButtonSize" />
+    </TableRow>
+
+    <TableRow>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/closeBtn"
+            tools:ignore="VisualLintButtonSize" />
+    </TableRow>
+
+</TableLayout>

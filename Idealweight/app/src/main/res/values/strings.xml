@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Idealweight</string>
+    <string name="maleBtn">Male</string>
+    <string name="femaleBtn">Female</string>
+    <string name="height">Height(cm):</string>
+    <string name="heightInput">Height</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Your ideal weight:</string>
+    <string name="resultDisplay">You must click the Calculate button to display the result</string>
+</resources>

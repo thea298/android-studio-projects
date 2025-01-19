@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:minWidth="32dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <TextView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"
+        android:layout_toEndOf="@id/num1"
+        android:layout_alignBottom="@id/num1"/>
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/plus"
+        android:layout_toEndOf="@id/plus"
+        android:inputType="numberDecimal"
+        android:minWidth="48dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <Button
+        android:id="@+id/equals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equals"
+        android:layout_toEndOf="@id/num2"
+        android:layout_alignBottom="@id/num2"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/equals"
+        android:layout_alignBottom="@id/equals"/>
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show"
+        android:layout_marginTop="48dp"
+        android:layout_below="@id/num2"
+        android:layout_alignStart="@id/num2"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:layout_toEndOf="@id/show"
+        android:layout_alignBottom="@id/show"/>
+
+</RelativeLayout>

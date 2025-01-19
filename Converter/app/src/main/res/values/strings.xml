@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="temperature">Temperature</string>
+    <string name="currency">Currency</string>
+    <string name="radio1">Radio 1</string>
+    <string name="radio2">Radio 2</string>
+    <string name="value">Value</string>
+    <string name="valueInput">Enter value to be converted</string>
+    <string name="convert">Convert</string>
+    <string name="result" />
+</resources>
