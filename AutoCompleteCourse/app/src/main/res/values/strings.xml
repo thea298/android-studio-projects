@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AutoCompleteCourse</string>
+    <string name="courses">Courses:</string>
+    <string name="selectionDisplay">Selection will appear here</string>
+</resources>

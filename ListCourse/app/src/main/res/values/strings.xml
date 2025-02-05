@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListCourse</string>
+    <string name="selected_none">Selected: None</string>
+</resources>
