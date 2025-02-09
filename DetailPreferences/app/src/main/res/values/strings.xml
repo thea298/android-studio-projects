@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DetailPreferences</string>
+
+    <string-array name="lock_screen_options">
+        <item>None</item>
+        <item>Password</item>
+        <item>Pattern</item>
+        <item>PIN</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>ARA</item>
+        <item>ENG</item>
+        <item>FRE</item>
+    </string-array>
+
+    <string name="language_options_ara">Arabic</string>
+    <string name="language_options_eng">English</string>
+    <string name="language_options_fre">French</string>
+    <string name="select_preferences">Select Preferences</string>
+    <string name="show_preferences">Show Preferences</string>
+    <string name="delete_preferences">Delete Preferences</string>
+</resources>
