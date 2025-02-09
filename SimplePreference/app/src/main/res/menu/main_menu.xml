@@ -7,4 +7,3 @@
         android:id="@+id/delete_preferences"
         android:title="Delete Preferences" />
 </menu>
-
